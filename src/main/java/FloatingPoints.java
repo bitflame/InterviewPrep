@@ -21,6 +21,6 @@ public class FloatingPoints {
         final BigDecimal amount3 = new BigDecimal("2.0");
         final BigDecimal amount4 = new BigDecimal("1.1");
         System.out.println("difference between 2.0 and 1.1 using BigDecimal is: " + (amount3.subtract(amount4)));
-        
+
     }
 }
