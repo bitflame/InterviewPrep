@@ -16,7 +16,6 @@ public class LookupCSV {
             String val = tokens[valField];
             st.put(key, val);
         }
-        StdOut.println(StdIn.isEmpty());
         while (!StdIn.isEmpty()) {
             String query = StdIn.readString();
             if (st.contains(query)){
